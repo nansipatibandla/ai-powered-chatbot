@@ -1,0 +1,12 @@
+{
+  "intents": [
+    {"tag": "greeting", "patterns": ["hi", "hello", "hey", "good morning", "good evening", "what's up"], "responses": ["Hello! How can I help you?", "Hi there! What can I do for you?", "Hey! How can I assist you?"]},
+    {"tag": "goodbye", "patterns": ["bye", "goodbye", "see you", "take care", "exit"], "responses": ["Goodbye! Have a great day!", "See you later!", "Take care!"]},
+    {"tag": "thanks", "patterns": ["thanks", "thank you", "that's helpful", "appreciate it"], "responses": ["You're welcome!", "Happy to help!", "Anytime!"]},
+    {"tag": "about", "patterns": ["who are you", "what are you", "tell me about yourself", "what can you do"], "responses": ["I'm a FAQ chatbot built with Python and Flask!", "I'm an AI chatbot here to answer your questions."]},
+    {"tag": "hours", "patterns": ["what are your hours", "when are you open", "working hours", "available time"], "responses": ["We are available 24/7 through this chatbot!", "Our chatbot is always online for you!"]},
+    {"tag": "contact", "patterns": ["contact", "email", "phone", "reach you", "support"], "responses": ["You can reach us at support@example.com", "Contact us at support@example.com or call 1800-000-000"]},
+    {"tag": "services", "patterns": ["what services", "what do you offer", "services", "products"], "responses": ["We offer customer support, technical assistance, and general FAQs.", "Our services include support, consulting, and product help."]},
+    {"tag": "unknown", "patterns": [], "responses": ["I'm not sure I understand. Can you rephrase?", "Sorry, I didn't get that. Try asking differently.", "I'm still learning! Could you clarify?"]}
+  ]
+}
